@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sunary/sqlize/utils"
+	"github.com/Jinboo-Tech/sqlize/utils"
 )
 
 // ForeignKey ...

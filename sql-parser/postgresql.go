@@ -3,11 +3,11 @@ package sql_parser
 import (
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/element"
 	"github.com/auxten/postgresql-parser/pkg/sql/parser"
 	"github.com/auxten/postgresql-parser/pkg/sql/sem/tree"
 	"github.com/auxten/postgresql-parser/pkg/walk"
 	"github.com/pingcap/parser/ast"
-	"github.com/sunary/sqlize/element"
 )
 
 // ParserPostgresql ...

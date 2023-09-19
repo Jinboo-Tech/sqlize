@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	sql_templates "github.com/sunary/sqlize/sql-templates"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
 )
 
 const (

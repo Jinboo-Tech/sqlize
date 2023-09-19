@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/Jinboo-Tech/sqlize/avro"
+	sql_builder "github.com/Jinboo-Tech/sqlize/sql-builder"
+	sql_parser "github.com/Jinboo-Tech/sqlize/sql-parser"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
+	"github.com/Jinboo-Tech/sqlize/utils"
 	_ "github.com/pingcap/parser/test_driver" // driver parser
-	"github.com/sunary/sqlize/avro"
-	sql_builder "github.com/sunary/sqlize/sql-builder"
-	sql_parser "github.com/sunary/sqlize/sql-parser"
-	sql_templates "github.com/sunary/sqlize/sql-templates"
-	"github.com/sunary/sqlize/utils"
 )
 
 const (

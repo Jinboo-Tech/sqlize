@@ -1,7 +1,7 @@
 package sqlize
 
 import (
-	sql_templates "github.com/sunary/sqlize/sql-templates"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
 )
 
 type sqlizeOptions struct {

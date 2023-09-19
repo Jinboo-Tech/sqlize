@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/utils"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/sunary/sqlize/utils"
 )
 
 // Index ...

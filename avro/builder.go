@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/element"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/types"
-	"github.com/sunary/sqlize/element"
 )
 
 // NewArvoSchema ...

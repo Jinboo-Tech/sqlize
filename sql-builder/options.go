@@ -1,7 +1,7 @@
 package sql_builder
 
 import (
-	sql_templates "github.com/sunary/sqlize/sql-templates"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
 )
 
 type sqlBuilderOptions struct {

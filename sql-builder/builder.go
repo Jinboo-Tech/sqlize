@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	sql_templates "github.com/sunary/sqlize/sql-templates"
-	"github.com/sunary/sqlize/utils"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
+	"github.com/Jinboo-Tech/sqlize/utils"
 )
 
 const (

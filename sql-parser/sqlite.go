@@ -3,9 +3,9 @@ package sql_parser
 import (
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/element"
 	"github.com/pingcap/parser/ast"
 	sqlite "github.com/rqlite/sql"
-	"github.com/sunary/sqlize/element"
 )
 
 // ParserSqlite ...

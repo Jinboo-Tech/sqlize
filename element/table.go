@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/utils"
 	"github.com/pingcap/parser/ast"
-	"github.com/sunary/sqlize/utils"
 )
 
 // Table ...

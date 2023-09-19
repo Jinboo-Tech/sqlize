@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"strings"
 
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
+	"github.com/Jinboo-Tech/sqlize/utils"
 	"github.com/pingcap/parser/ast"
-	sql_templates "github.com/sunary/sqlize/sql-templates"
-	"github.com/sunary/sqlize/utils"
 )
 
 var (

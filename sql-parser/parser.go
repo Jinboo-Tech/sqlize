@@ -1,8 +1,8 @@
 package sql_parser
 
 import (
-	"github.com/sunary/sqlize/element"
-	sql_templates "github.com/sunary/sqlize/sql-templates"
+	"github.com/Jinboo-Tech/sqlize/element"
+	sql_templates "github.com/Jinboo-Tech/sqlize/sql-templates"
 )
 
 // Parser ...

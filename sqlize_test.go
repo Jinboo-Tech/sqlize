@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sunary/sqlize/utils"
+	"github.com/Jinboo-Tech/sqlize/utils"
 )
 
 type Base struct {

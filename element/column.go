@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Jinboo-Tech/sqlize/utils"
 	ptypes "github.com/auxten/postgresql-parser/pkg/sql/types"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/format"
 	"github.com/pingcap/parser/types"
 	sqlite "github.com/rqlite/sql"
-	"github.com/sunary/sqlize/utils"
 )
 
 const (

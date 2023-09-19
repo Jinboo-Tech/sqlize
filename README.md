@@ -1,6 +1,6 @@
 ### SQLize
 
-![github action](https://github.com/sunary/sqlize/actions/workflows/go.yml/badge.svg)
+![github action](https://github.com/Jinboo-Tech/sqlize/actions/workflows/go.yml/badge.svg)
 
 English | [中文](README_zh.md)
 
@@ -31,7 +31,7 @@ package main
 import (
 	"time"
 	
-	"github.com/sunary/sqlize"
+	"github.com/Jinboo-Tech/sqlize"
 )
 
 type user struct {

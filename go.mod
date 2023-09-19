@@ -1,4 +1,4 @@
-module github.com/sunary/sqlize
+module github.com/Jinboo-Tech/sqlize
 
 go 1.14
 

@@ -1,10 +1,10 @@
 package sql_parser
 
 import (
+	"github.com/Jinboo-Tech/sqlize/element"
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/sunary/sqlize/element"
 )
 
 // ParserMysql ...
