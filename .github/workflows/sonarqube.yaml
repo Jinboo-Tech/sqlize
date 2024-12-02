@@ -1,0 +1,24 @@
+name: SonarQube
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  SonarQube-Analyze:
+    name: SonarQube Analyze
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up SonarQube project key
+        run: echo "SONAR_PROJECT_KEY=$(echo ${{ github.repository }} | cut -d'/' -f2)" >> $GITHUB_ENV
+
+      - uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_SCANNER_OPTS: -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
